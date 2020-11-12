@@ -14,6 +14,7 @@ namespace Conversor
             conversor.valor = double.Parse(Console.ReadLine());
          
             Console.Write("Valor a Ser Pago em Reais: " + conversor.Reais().ToString("F2", CultureInfo.InvariantCulture)); // Escrever valor em reais
+            // ao executar o código, tem que colocar vírgula ao invés de ponto
 
             Console.ReadKey();
         }
